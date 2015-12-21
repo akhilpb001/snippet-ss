@@ -1,0 +1,23 @@
+{
+  "name": "snippet-ss",
+  "description": "A generic set of stylesheet classes",
+  "main": "index.js",
+  "authors": [
+    "Sreenath Somarajapuram <somarajapuram@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "generic",
+    "stylesheet",
+    "classes"
+  ],
+  "homepage": "https://github.com/sreenaths/snippet-ss",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
