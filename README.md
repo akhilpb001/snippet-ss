@@ -28,9 +28,24 @@ A generic set of stylesheet classes
   - clear-fix
 
 - force-use.less
-  - use-gpu
+  - force-gpu
   - force-scrollbar
 
 - background.less
   - noise-background
   - dotted-background
+
+- fonts.less
+  - serif-georgia
+  - serif-times
+  - serif-palatino
+  - san-helvetica
+  - san-verdana
+  - san-arial
+  - san-comic
+  - san-impact
+  - san-lucida
+  - san-tahoma
+  - san-trebuchet
+  - mono-courier
+  - mono-lucida
