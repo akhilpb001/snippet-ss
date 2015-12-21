@@ -1,0 +1,40 @@
+// Element Interaction
+.no-pointer {
+  pointer-events: none;
+}
+
+.no-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+
+  cursor: default;
+}
+
+// Element display
+.no-display {
+  display: none !important;
+}
+
+.no-visible {
+  visibility: hidden !important;
+}
+
+.no-active {
+  .no-pointer;
+  opacity: 0.4;
+}
+
+// Element parts
+.no-margin {
+  margin: 0px !important;
+}
+
+.no-border {
+  border: none !important;
+}
+
+// Text
+.no-wrap {
+  white-space: nowrap;
+}
