@@ -4,7 +4,8 @@
   "description": "A generic set of stylesheet classes",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "./node_modules/less/bin/lessc ./styles/index.less ./css/index.css"
   },
   "repository": {
     "type": "git",
