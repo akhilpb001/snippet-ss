@@ -1,2 +1,2 @@
 # snippet-ss
-A generic set of style sheets
+A generic set of stylesheet classes
