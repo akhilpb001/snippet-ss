@@ -1,0 +1,27 @@
+{
+  "name": "snippet-ss",
+  "version": "1.0.0",
+  "description": "A generic set of stylesheet classes",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sreenaths/snippet-ss.git"
+  },
+  "keywords": [
+    "generic",
+    "stylesheet",
+    "classes"
+  ],
+  "author": "Sreenath Somarajapuram <somarajapuram@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sreenaths/snippet-ss/issues"
+  },
+  "homepage": "https://github.com/sreenaths/snippet-ss#readme",
+  "dependencies": {
+    "less": "^2.5.3"
+  }
+}
