@@ -12,3 +12,25 @@ A generic set of stylesheet classes
 ## Building css from less
 
 `npm run build`
+
+## Available classes
+- no.less
+  - no-pointer
+  - no-select
+  - no-display
+  - no-visible
+  - no-active
+  - no-margin
+  - no-border
+  - no-wrap
+
+- fix.less
+  - clear-fix
+
+- force-use.less
+  - use-gpu
+  - force-scrollbar
+
+- background.less
+  - noise-background
+  - dotted-background
