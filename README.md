@@ -14,6 +14,7 @@ A generic set of stylesheet classes
 `npm run build`
 
 ## Available classes
+- reset.less -  Eric Meyer’s CSS Reset V2.0
 - no.less
   - no-pointer
   - no-select
