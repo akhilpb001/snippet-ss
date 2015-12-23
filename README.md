@@ -1,25 +1,34 @@
 # snippet-ss
-A generic set of stylesheet classes
+A generic set of stylesheet classes - In css, less & scss formats
 
-- All the less exists under styles folder
-- index.less imports all the snippet files
-- css of index.less can be found under css folder
 
 ## Installation
 
 `npm install --save snippet-ss`
 
-## Building css from less
+- All the styles are originaly scripted in less, its then transpiled into css and scss by the build command
+- All the transpiled scripts will be committed for ease at the user end
 
-`npm run build`
+## Transpiling less to css & scss
 
-## Available classes
-- reset.less -  Eric Meyer’s CSS Reset V2.0
+ `npm run build`
 
-- functions.less
+#### Only to css
+
+  `npm run build:css`
+
+#### Only to scss
+
+  `npm run build:scss`
+
+
+## Available style files & classes in them
+##### 1. reset - _Eric Meyer’s CSS Reset V2.0_
+
+##### 2. functions
   - opacity
 
-- no.less
+##### 3. no
   - no-pointer
   - no-select
   - no-display
@@ -29,18 +38,18 @@ A generic set of stylesheet classes
   - no-border
   - no-wrap
 
-- fix.less
+##### 4. fix
   - clear-fix
 
-- force-use.less
+##### 5. force-use
   - force-gpu
   - force-scrollbar
 
-- background.less
+##### 6. background
   - noise-background
   - dotted-background
 
-- fonts.less
+##### 7. fonts
   - serif-georgia
   - serif-times
   - serif-palatino
