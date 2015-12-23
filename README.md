@@ -22,7 +22,7 @@ A generic set of stylesheet classes - In css, less & scss formats
   `npm run build:scss`
 
 
-## Available style files & classes in them
+## Available style files, and classes in them
 ##### 1. reset - _Eric Meyer’s CSS Reset V2.0_
 
 ##### 2. functions
