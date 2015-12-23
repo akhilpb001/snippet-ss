@@ -1,0 +1,11 @@
+
+// Clear fix: For fixing issues while using float. Apply it to the parent element.
+.clear-fix {
+  &:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+  }
+}

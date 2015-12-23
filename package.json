@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "build": "./node_modules/less/bin/lessc ./less/index.less ./css/index.css"
+    "build:css": "lessc less/index.less css/index.css",
+    "build:scss": "rm -rf scss/* && less2sass less/ &> /dev/null && mv less/*.scss scss/ 2>&1",
+    "build": "npm run build:css && npm run build:scss"
   },
   "repository": {
     "type": "git",
@@ -22,7 +24,8 @@
     "url": "https://github.com/sreenaths/snippet-ss/issues"
   },
   "homepage": "https://github.com/sreenaths/snippet-ss#readme",
-  "dependencies": {
-    "less": "^2.5.3"
+  "devDependencies": {
+    "less": "^2.5.3",
+    "less2sass": "0.0.2"
   }
 }
