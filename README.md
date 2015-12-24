@@ -43,13 +43,16 @@ A generic set of stylesheet classes - In css, less & scss formats
   - no-wrap
 
 ##### 3. effects
-  - noise-bg
-  - dotted-bg
-  - diagonal-stripes-bg
+  - outer-glow(@color)
+  - inner-glow(@color)
+  - shadow(@color)
+  - left-shadow(@color)
+  - right-shadow(@color)
 
 ##### 4. background
   - noise-bg
   - dotted-bg
+  - checker-bg
   - diagonal-stripes-bg
 
 ##### 5. functions
