@@ -9,6 +9,10 @@ A generic set of stylesheet classes - In css, less & scss formats
 - All the styles are originaly scripted in less, its then transpiled into css and scss by the build command
 - All the transpiled scripts will be committed for ease at the user end
 
+## Demo page / tests
+
+`npm test`
+
 ## Transpiling less to css & scss
 
  `npm run build`
@@ -25,31 +29,38 @@ A generic set of stylesheet classes - In css, less & scss formats
 ## Available style files, and classes in them
 ##### 1. reset - _Eric Meyer’s CSS Reset V2.0_
 
-##### 2. functions
-  - opacity
-
-##### 3. no
-  - no-pointer
+##### 2. no
+  - no-mouse (alias - no-pointer)
   - no-select
   - no-display
   - no-visible
   - no-active
   - no-margin
+  - no-padding
   - no-border
   - no-wrap
 
-##### 4. fix
+##### 3. effects
+  - noise-bg
+  - dotted-bg
+  - diagonal-stripes-bg
+
+##### 4. background
+  - noise-bg
+  - dotted-bg
+  - diagonal-stripes-bg
+
+##### 5. functions
+  - opacity
+
+##### 6. fix
   - clear-fix
 
-##### 5. force-use
+##### 7. force-use
   - force-gpu
-  - force-scrollbar
+  - force-scrollbar - To replace OSx Lion’s hidden scroll-bar behavior. So that a scroll-bar is displayed whenever scrolling is possible. Supported only by webkit.
 
-##### 6. background
-  - noise-background
-  - dotted-background
-
-##### 7. fonts
+##### 8. fonts
   - serif-georgia
   - serif-times
   - serif-palatino
