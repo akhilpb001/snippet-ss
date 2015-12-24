@@ -6,12 +6,14 @@ A generic set of stylesheet classes - In css, less & scss formats
 
 `npm install --save snippet-ss`
 
-- All the styles are originaly scripted in less, its then transpiled into css and scss by the build command
+- All the styles are originally scripted in less, its then transpiled into css and scss by the build command
 - All the transpiled scripts will be committed for ease at the user end
 
 ## Demo page / tests
 
 `npm test`
+- The demo page must open in your default browser.
+- Else open tests/index.html in a browser.
 
 ## Transpiling less to css & scss
 
