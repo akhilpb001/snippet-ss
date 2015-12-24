@@ -1,0 +1,35 @@
+
+//==== Glow param-mixins ====
+
+@mixin outer-glow($color: #FFF) {
+  -webkit-box-shadow+: 0 0 10px 3px $color;
+     -moz-box-shadow+: 0 0 10px 3px $color;
+          box-shadow+: 0 0 10px 3px $color;
+}
+
+@mixin inner-glow($color: #FFF) {
+  -webkit-box-shadow+: inset 0 0 10px 3px $color;
+     -moz-box-shadow+: inset 0 0 10px 3px $color;
+          box-shadow+: inset 0 0 10px 3px $color;
+}
+
+//==== Shadow param-mixins ====
+
+@mixin shadow($color: rgba(0, 0, 0, .6)) {
+	-webkit-box-shadow+: 0 8px 6px -3px $color;
+	   -moz-box-shadow+: 0 8px 6px -3px $color;
+	        box-shadow+: 0 8px 6px -3px $color;
+}
+
+@mixin left-shadow($color: rgba(0, 0, 0, .6)) {
+	-webkit-box-shadow+: -6px 8px 6px -2px $color;
+	   -moz-box-shadow+: -6px 8px 6px -2px $color;
+	        box-shadow+: -6px 8px 6px -2px $color;
+}
+
+@mixin right-shadow($color: rgba(0, 0, 0, .6)) {
+	-webkit-box-shadow+: 6px 8px 6px -2px $color;
+	   -moz-box-shadow+: 6px 8px 6px -2px $color;
+	        box-shadow+: 6px 8px 6px -2px $color;
+}
+
