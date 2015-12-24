@@ -7,7 +7,7 @@
 .dotted-bg, .dotted-background {
   @color: rgba(0, 0, 0, .2);
   background-color: #DDD;
-  background: radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), rgb(147, 148, 148);
+  background+: radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), rgb(147, 148, 148);
   background-position: 0 0, 10px 10px;
   background-size: 20px 20px;
 }
@@ -16,7 +16,7 @@
   @dot-color: rgba(0, 0, 0, .2);
   background-color: #DDD;
   background-size: 10px 10px;
-  background-image: linear-gradient(45deg, @dot-color 25%, transparent 25%),
+  background-image+: linear-gradient(45deg, @dot-color 25%, transparent 25%),
     linear-gradient(-45deg, @dot-color 25%, transparent 25%),
     linear-gradient(45deg, transparent 75%, @dot-color 75%),
     linear-gradient(-45deg, transparent 75%, @dot-color 75%);

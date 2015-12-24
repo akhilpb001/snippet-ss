@@ -43,6 +43,7 @@ A generic set of stylesheet classes - In css, less & scss formats
   - no-wrap
 
 ##### 3. effects
+_The glow is appended on to existing box-shadow value_
   - outer-glow(@color)
   - inner-glow(@color)
   - shadow(@color)
@@ -50,6 +51,7 @@ A generic set of stylesheet classes - In css, less & scss formats
   - right-shadow(@color)
 
 ##### 4. background
+_Default background color is grey, you can change that in less using background-color or other related property. Also the pattern is appended onto existing patterns_
   - noise-bg
   - dotted-bg
   - checker-bg
@@ -63,7 +65,7 @@ A generic set of stylesheet classes - In css, less & scss formats
 
 ##### 7. force-use
   - force-gpu
-  - force-scrollbar - To replace OSx Lion’s hidden scroll-bar behavior. So that a scroll-bar is displayed whenever scrolling is possible. Supported only by webkit.
+  - force-scrollbar - _To replace OSx Lion’s hidden scroll-bar behavior. So that a scroll-bar is displayed whenever scrolling is possible. Supported only by webkit._
 
 ##### 8. fonts
   - serif-georgia
