@@ -4,10 +4,11 @@
   "description": "A generic set of stylesheet classes",
   "main": "index.js",
   "scripts": {
-    "test": "test",
     "build:css": "lessc less/index.less css/index.css",
     "build:scss": "rm -rf scss/* && less2sass less/ &> /dev/null && mv less/*.scss scss/ 2>&1",
-    "build": "npm run build:css && npm run build:scss"
+    "build": "npm run build:css && npm run build:scss",
+    "build:test": "lessc tests/styles.less tests/styles.css",
+    "test": "npm run build:test && open tests/index.html"
   },
   "repository": {
     "type": "git",

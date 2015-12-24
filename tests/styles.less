@@ -1,0 +1,78 @@
+@import "../less/index";
+
+header {
+  background-color: #CCC;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.content, header {
+  padding: 10px;
+}
+
+.file-name {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+// --- Sample tiles ---
+
+.sample-container {
+
+  display: inline-block;
+  width: 200px;
+  height: 70px;
+
+  overflow: hidden;
+
+  padding: 5px;
+
+  border: 1px dotted grey;
+  border-radius: 5px;
+
+  div {
+    margin: 5px 20px 5px 20px;
+    padding: 10px;
+    text-align: center;
+
+    border: 1px solid grey;
+    border-radius: .5em;
+  }
+}
+
+// --- effect classes -----
+
+.outer-glow-test {
+  .outer-glow(powderblue);
+}
+.inner-glow-test {
+  .inner-glow(powderblue);
+}
+.shadow-test {
+  .shadow();
+}
+.left-shadow-test {
+  .left-shadow();
+}
+.right-shadow-test {
+  .right-shadow();
+}
+
+// --- background classes -----
+
+.noise-bg-test {
+  .noise-bg;
+  background-color: #90EE90;
+}
+.dotted-bg-test {
+  .dotted-bg;
+  background-color: #E9967A;
+}
+.checker-bg-test {
+  .checker-bg;
+  background-color: #FFFF00;
+}
+.striped-bg-test {
+  .diagonal-stripes-bg;
+  background-color: powderblue;
+}
