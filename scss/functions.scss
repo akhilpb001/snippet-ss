@@ -1,13 +1,4 @@
-// Mixins as functions
+// Set of parameterised mixins - Maintaining this file for backward compatibility
 
 @import "./effects";
-
-@mixin opacity($opacity) {
-  $opacityPercentage: $opacity * 100;
-
-  -khtml-opacity: $opacity;      /* khtml, old safari */
-  -moz-opacity: $opacity;       /* mozilla, netscape */
-  opacity: $opacity;           /* fx, safari, opera */
-  -ms-filter: ~"progid:DXImageTransform.Microsoft.Alpha(opacity=(${opacityPercentage}))"; /* internet explorer */
-  filter: ~"alpha(opacity = (${opacityPercentage}))"; /* internet explorer */
-}
+@import "./x-browser";
