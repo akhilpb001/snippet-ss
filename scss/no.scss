@@ -1,3 +1,6 @@
+
+@import "./x-browser";
+
 // Element Interaction
 .no-pointer, .no-mouse {
   pointer-events: none;
@@ -22,7 +25,7 @@
 
 .no-active {
   @include no-pointer;
-  opacity: 0.4;
+  @include opacity(0.4);
 }
 
 // Element parts

@@ -144,7 +144,16 @@ table {
 }
 .no-active {
   pointer-events: none;
+  -khtml-opacity: 0.4;
+  /* khtml, old safari */
+  -moz-opacity: 0.4;
+  /* mozilla, netscape */
   opacity: 0.4;
+  /* fx, safari, opera */
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=(40));
+  /* internet explorer */
+  filter: alpha(opacity = (40));
+  /* internet explorer */
 }
 .no-margin {
   margin: 0 !important;
