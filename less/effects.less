@@ -1,3 +1,10 @@
+//==== Glass ====
+
+.glass {
+  box-shadow+:
+    inset 0 2px 9px  rgba(255,255,255,0.9),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+}
 
 //==== Glow param-mixins ====
 
@@ -6,11 +13,17 @@
      -moz-box-shadow+: 0 0 10px 3px @color;
           box-shadow+: 0 0 10px 3px @color;
 }
+.white-outer-glow {
+  .outer-glow();
+}
 
 .inner-glow(@color: #FFF) {
   -webkit-box-shadow+: inset 0 0 10px 3px @color;
      -moz-box-shadow+: inset 0 0 10px 3px @color;
           box-shadow+: inset 0 0 10px 3px @color;
+}
+.white-inner-glow {
+  .inner-glow();
 }
 
 //==== Shadow param-mixins ====
@@ -20,11 +33,17 @@
 	   -moz-box-shadow+: 0 8px 6px -3px @color;
 	        box-shadow+: 0 8px 6px -3px @color;
 }
+.dark-shadow {
+  .shadow();
+}
 
 .left-shadow(@color: rgba(0, 0, 0, .6)) {
 	-webkit-box-shadow+: -6px 8px 6px -2px @color;
 	   -moz-box-shadow+: -6px 8px 6px -2px @color;
 	        box-shadow+: -6px 8px 6px -2px @color;
+}
+.dark-left-shadow {
+  .left-shadow();
 }
 
 .right-shadow(@color: rgba(0, 0, 0, .6)) {
@@ -32,4 +51,6 @@
 	   -moz-box-shadow+: 6px 8px 6px -2px @color;
 	        box-shadow+: 6px 8px 6px -2px @color;
 }
-
+.dark-right-shadow {
+  .right-shadow();
+}
