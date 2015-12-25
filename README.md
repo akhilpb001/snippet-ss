@@ -28,6 +28,8 @@ A generic set of stylesheet classes - In css, less & scss formats
 
 
 ## Available style files, and classes in them
+_Parameterised mixins would be available only in less & scss_
+
 ##### 1. reset - _Eric Meyer’s CSS Reset V2.0_
 
 ##### 2. no
@@ -48,6 +50,12 @@ _The glow is appended onto existing box-shadow value_
   - .shadow(@color)
   - .left-shadow(@color)
   - .right-shadow(@color)
+  - .white-outer-glow
+  - .white-inner-glow
+  - .dark-shadow
+  - .dark-left-shadow
+  - .dark-right-shadow
+  - .glass
 
 ##### 4. background
 _Default background color is grey, you can change that in less using background-color or other related property. Also the pattern is appended onto existing patterns_
