@@ -58,7 +58,8 @@ _The glow is appended onto existing box-shadow value_
   - .glass
 
 ##### 4. background
-_Default background color is grey, you can change that in less using background-color or other related property. Also the pattern is appended onto existing patterns_
+- _Default background color is grey, you can change that in less using background-color or other related property. Also the pattern is appended onto existing patterns_
+- Add `animate` class to make the background scroll horizontally
   - .noise-bg
   - .dotted-bg
   - .checker-bg
