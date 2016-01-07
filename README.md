@@ -47,11 +47,13 @@ _Parameterised mixins would be available only in less & scss_
 _The glow is appended onto existing box-shadow value_
   - .outer-glow(@color)
   - .inner-glow(@color)
+  - .text-outer-glow(@color)
   - .shadow(@color)
   - .left-shadow(@color)
   - .right-shadow(@color)
   - .white-outer-glow
   - .white-inner-glow
+  - .white-text-outer-glow
   - .dark-shadow
   - .dark-left-shadow
   - .dark-right-shadow

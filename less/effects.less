@@ -26,6 +26,17 @@
   .inner-glow();
 }
 
+.text-outer-glow(@color: #FFF) {
+  text-shadow:
+    -1px -1px 1px @color,
+    1px -1px  1px @color,
+    -1px 1px 1px @color,
+    1px 1px 1px @color;
+}
+.white-text-outer-glow {
+  .text-outer-glow();
+}
+
 //==== Shadow param-mixins ====
 
 .shadow(@color: rgba(0, 0, 0, .6)) {
