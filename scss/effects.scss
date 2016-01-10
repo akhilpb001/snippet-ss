@@ -26,6 +26,17 @@
   @include inner-glow();
 }
 
+@mixin text-outer-glow($color: #FFF) {
+  text-shadow:
+    -1px -1px 1px $color,
+    1px -1px  1px $color,
+    -1px 1px 1px $color,
+    1px 1px 1px $color;
+}
+.white-text-outer-glow {
+  @include text-outer-glow();
+}
+
 //==== Shadow param-mixins ====
 
 @mixin shadow($color: rgba(0, 0, 0, .6)) {

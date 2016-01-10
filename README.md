@@ -66,6 +66,9 @@ _The glow is appended onto existing box-shadow value_
   - .dotted-bg
   - .checker-bg
   - .diagonal-stripes-bg
+  - .dotted-background(@light-color, @dark-color)
+  - .checker-background(@light-color, @dark-color)
+  - .diagonal-stripes-background(@light-color, @dark-color)
 
 ##### 5. fix
   - .clear-fix
