@@ -70,16 +70,21 @@ _The glow is appended onto existing box-shadow value_
 ##### 5. fix
   - .clear-fix
 
-##### 6. force-use
+##### 6. force
   - .force-gpu - Just to force hardware acceleration for the element
   - .force-scrollbar - _To replace OSx Lion’s hidden scroll-bar behavior. So that a scroll-bar is displayed whenever scrolling is possible. Supported only by WebKit._
 
-##### 7. x-browser - Some functions for making cross browser compatibility easy
+##### 7. use
+  - .use-border-padding-in-width-height - Border & padding size would be considered as part of width or height
+  - .use-border-box - Alias for use-border-padding-in-width-height
+  - .use-ellipsis - Uses ellipsis to denote overflowing text
+
+##### 8. x-browser - Some functions for making cross browser compatibility easy
   - .opacity(@opacity)
     - @opacity must be a value from 0 to 1
     - _Previously it was under functions file_
 
-##### 8. fonts
+##### 9. fonts
   - .serif-georgia
   - .serif-times
   - .serif-palatino
