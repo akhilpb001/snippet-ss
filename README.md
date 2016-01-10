@@ -4,7 +4,7 @@ A generic set of stylesheet classes - In css, less & scss formats
 
 ## Installation
 
-`npm install --save snippet-ss`
+`bower install --save snippet-ss` or `npm install --save snippet-ss`
 
 - All the styles are originally scripted in less, its then transpiled into css and scss by the build command
 - All the transpiled scripts will be committed for ease at the user end

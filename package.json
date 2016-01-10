@@ -1,6 +1,6 @@
 {
   "name": "snippet-ss",
-  "version": "1.9.2",
+  "version": "1.9.3",
   "description": "A generic set of stylesheet classes",
   "main": "index.js",
   "scripts": {
