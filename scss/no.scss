@@ -24,7 +24,7 @@
 }
 
 .no-active {
-  @include no-pointer;
+  @extend .no-pointer;
   @include opacity(0.4);
 }
 

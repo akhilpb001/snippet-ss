@@ -7,6 +7,6 @@
   -moz-opacity: $opacity;       /* mozilla, netscape */
   opacity: $opacity;           /* fx, safari, opera */
 
-  -ms-filter: ~"progid:DXImageTransform.Microsoft.Alpha(opacity=(${opacityPercentage}))"; /* internet explorer */
-  filter: ~"alpha(opacity = (${opacityPercentage}))"; /* internet explorer */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(${opacityPercentage}))"; /* internet explorer */
+  filter: "alpha(opacity = (${opacityPercentage}))"; /* internet explorer */
 }
